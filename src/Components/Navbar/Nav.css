@@ -1,0 +1,47 @@
+/* src/Nav.css */
+.transparent-navbar {
+    background-color: transparent !important;
+    box-shadow: none; /* Remove shadow if present */
+  }
+  
+  .transparent-navbar .nav-link {
+    color: white; /* Ensure links are white */
+  }
+  .Parent{
+    justify-content: space-between;
+    gap: 120vh;
+    margin-top: 40px;
+  }
+  
+  .AZ {
+    height: 10vh;
+    width: 10vh;
+  }
+  .me-auto{
+    gap: 30px;
+  }
+  .AA{
+    height: 10vh;
+    width: 10vh;
+  }
+  .AB{
+    height: 10vh;
+    width: 10vh;
+  }
+  .AC{
+    height: 10vh;
+    width: 10vh;
+  }
+
+  @media(max-width:834px){
+    .Parent{
+        gap: 0;display: flow-root;
+        top: 0;
+        margin-left: auto;margin-right: auto;
+        display: flex;
+    }
+    .me-auto{
+        gap: 30px;
+        display: flex;
+    }
+  }

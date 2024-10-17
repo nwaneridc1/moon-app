@@ -1,0 +1,64 @@
+/* Base styles */
+.CZ{
+    align-content: center;
+    align-items: center;
+    flex: none;
+    flex-wrap: nowrap;
+    height: min-content;
+    justify-content: center;
+}
+.CA {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.BC {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    letter-spacing: 0em;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 102, 255, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    color: rgb(204, 204, 204);
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Cherry Bomb One", sans-serif;
+    font-style: normal;
+    line-height: 1em;
+    height: 68%;
+}
+
+/* Media query for devices with a max width of 834px */
+@media (max-width: 834px) {
+    .CA {
+        height: 40vh; /* Reduce height on smaller screens */
+    }
+    
+    .BC {
+        font-size: 22px; /* Adjust font size for better readability */
+        padding: 8px; /* Decrease padding */
+    }
+}
+
+/* Media query for devices with a min width of 835px */
+@media (min-width: 835px) {
+    .CA {
+        height: 60vh; /* Increase height on larger screens */
+    }
+    
+    .BC {
+        font-size: 30px; /* Increase font size */
+        padding: 12px; /* Increase padding */
+    }
+}
